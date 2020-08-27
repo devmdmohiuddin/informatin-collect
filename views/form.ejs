@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Form Page</title>
+</head>
+<body>
+
+  <header class="main-header">
+    <nav class="main-header__nav">
+      <ul class="main-header__list">
+        <li class="main-header__item"><a class="main-header__link" href="/">Form</a></li>
+        <li class="main-header__item"><a class="main-header__link" href="/information">information</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <form class="information-form" action="/information" method="POST">
+      <div class="information-form__group">
+        <label class="information-from__label" for="name">Name</label>
+        <input class="information-form__input" type="text" name="name" id="name">
+      </div>
+      <div class="information-form__group">
+        <label class="information-from__label" for="email">Email</label>
+        <input class="information-form__input" type="email" name="email" id="email">
+      </div>
+      <div class="information-form__group">
+        <label class="information-from__label" for="phone">Phone</label>
+        <input class="information-form__input" type="text" name="phone" id="phone">
+      </div>
+      <button class="information-form__btn" type="submit">Information Submit</button>
+    </form>
+  </section>
+
+</body>
+</html>
